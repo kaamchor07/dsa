@@ -17,4 +17,6 @@ jobs:
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
           destination-folder: solutions # Optional: Saves code into a folder named 'solutions'
+          commit-author-name: kaamchor07
+          commit-author-email: na24b036@smail.iitm.ac.in
           verbose: true
